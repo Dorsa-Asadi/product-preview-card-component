@@ -1,0 +1,95 @@
+body{
+    background-color:hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+
+.box{
+    text-align: center;
+    margin: 100px auto;
+    width: 500px;
+    height: 363px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box .product-img{
+    width: 240px;
+}
+
+
+.content{
+    text-align: left;
+    margin: 35px 25px;
+    overflow: hidden;
+}
+
+
+.subject{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+}
+
+.title{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    margin: 9px 0;
+    color:  hsl(212, 21%, 14%);
+}
+
+.paragraph{
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 19px;
+}
+
+
+.price1{
+    font-family: 'Fraunces', serif;
+    color:  hsl(212, 21%, 14%);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    margin: 9px 0;
+}
+
+
+.price2{
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 19px;
+    text-decoration: line-through;
+    margin-left: 15px;
+
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    background-image: url("images/icon-cart.png");
+    background-repeat: no-repeat;
+    background-position:58px;
+    font-weight: bold;
+    color:hsl(0, 0%, 100%) ;
+    width: 100%;
+    border-radius: 10px;
+    padding: 11px;
+    border-style: hidden;
+    margin-top: 13px;
+
+}
+
+button i{
+    padding-right:30px ;
+}
+
+button:hover{
+    background-color: hsl(158, 45%, 20%);
+}
